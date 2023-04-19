@@ -91,4 +91,4 @@ class Place(BaseModel, Base):
             if obj is not None:
                 if isinstance(obj, Amenity):
                     if obj.id not in self.amenity_ids:
-                        self.amenity_ids.append(obj.id
+                        self.amenity_ids.append(obj.id)
